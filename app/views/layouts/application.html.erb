@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Workspace</title>
+      <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => false %>
+      <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
+      <%= csrf_meta_tags %>
+    </head>
+    <body>
+         <style> 
+         body{background-image:url(https://image.artrescape.com/artwork/29743/2014-03-17/%EC%8B%A0%EC%B4%8C.jpg);
+         background-size.cover}
+         </style>
+    <%= yield %>
+    
+    </body>
+</html>
